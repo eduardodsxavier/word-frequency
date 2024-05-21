@@ -35,6 +35,8 @@ def main():
     for word in wordFrequency.keys():
         print(f'{word} repeate: {wordFrequency[word]} times')
 
+    file.close()
+    
     print()
     
 def countWords(text, wordFrequency):
